@@ -97,4 +97,5 @@ http_type(page_data2)
 
 result2 <- fromJSON(rawToChar(page_data2$content))
 jsonText <- content(page_data2, 'text')
-jsonParsed <- content(page_data2, 'parsed')
+jsonParsed <- content(page_data2, 'parsed') # Parsing é o processo de analisar
+# um texo para determinar sua estrutura lógica  
